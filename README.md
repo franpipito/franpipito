@@ -30,7 +30,7 @@
 
 | Proyecto | Stack | Descripción | |
 |---|---|---|---|
-| 🎾 **MatchPoint** | React Native · Expo 54 · TypeScript · Supabase (Auth, Postgres, RPC, Edge Functions) | App para organizar partidos de pádel amateur: partidos por nivel y zona, resultados confirmados entre jugadores, ranking, calificaciones y chat. Publicada en el App Store. | [App Store](https://apps.apple.com/ar/app/matchpoint-jugar-p%C3%A1del/id6784829408) · [Arquitectura](#) |
+| 🎾 **MatchPoint** | React Native · Expo 54 · TypeScript · Supabase (Auth, Postgres, RPC, Edge Functions) | App para organizar partidos de pádel amateur: partidos por nivel y zona, resultados confirmados entre jugadores, ranking, calificaciones y chat. Publicada en el App Store. | [App Store](https://apps.apple.com/ar/app/matchpoint-jugar-p%C3%A1del/id6784829408) |
 | 💲 **Automatizador de Precios & Stock** | Node.js · MySQL · Mercado Libre API · Google APIs | Sincronización end-to-end entre Google Sheets, MySQL y Mercado Libre: webhook, cola de jobs con dedupe, outbox pattern latest-wins, retry con backoff y rate limiting por cuenta. | [Arquitectura](#) |
 | 📦 **Plataforma de Logística Realtime** | Node.js · MySQL · Socket.IO · SSE · JWT | Portal interno de operaciones: monitoreo de actividad en tiempo real, gestión de pedidos y productos para revisión y empaquetado, con trazabilidad de asignaciones. | Privado |
 | 🤝 **Preguntas MELI** | Node.js · MySQL · Mercado Libre API · WebSocket · Redis Pub/Sub | Bandeja que centraliza las preguntas de varias cuentas de Mercado Libre, con reserva por pregunta para evitar respuestas duplicadas y atribución de ventas. | Privado |
