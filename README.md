@@ -42,14 +42,6 @@
 
 ---
 
-## 🧭 Explorando ahora
-
-- React y Next.js para frontend web
-- Testing automatizado con Jest y Supertest
-- Docker y despliegue de servicios
-
----
-
 ## 📫 ¿Charlamos?
 
 <div align="left">
