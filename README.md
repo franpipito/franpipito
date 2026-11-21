@@ -1,6 +1,6 @@
 ## ¡Buenas! Soy Franco Pipito <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="40" />
 
-💻 Full Stack Developer. Trabajo con **Node.js, Express y MySQL** en aplicaciones internas en producción, integradas con la **API de Mercado Libre** y **Google APIs**. Publiqué **Playin** (antes MatchPoint), app de pádel en React Native + Supabase, en el App Store. Estudiante avanzado de Ingeniería Informática en UADE.
+💻 Full Stack Developer. Trabajo con **Node.js, Express y MySQL** en aplicaciones internas en producción, integradas con la **API de Mercado Libre** y **Google APIs**. Publiqué en el App Store **MiNutria**, con backend propio en Java + Spring Boot, y **Playin** (antes MatchPoint), app de pádel en React Native + Supabase. Estudiante avanzado de Ingeniería Informática en UADE.
 
 ---
 
@@ -18,6 +18,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/>
@@ -31,7 +33,8 @@
 | Proyecto | Stack | Descripción | |
 |---|---|---|---|
 | 🎾 **Playin** (antes MatchPoint) | React Native · Expo 54 · TypeScript · Supabase (Auth, Postgres, RPC, Edge Functions) | App para organizar partidos de pádel amateur: partidos por nivel y zona, resultados confirmados entre jugadores, ranking, calificaciones y chat. Publicada en el App Store. | [App Store](https://apps.apple.com/ar/app/playin/id6784829408) · [Arquitectura](https://github.com/franpipito/playin-arquitectura) |
-| 💲 **Automatizador de Precios & Stock** | Node.js · MySQL · Mercado Libre API · Google APIs | Sincronización end-to-end entre Google Sheets, MySQL y Mercado Libre: webhook, cola de jobs con dedupe, outbox pattern latest-wins, retry con backoff y rate limiting por cuenta. | [Arquitectura](#) |
+| 🦦 **MiNutria** | Java 21 · Spring Boot · Spring Security · MongoDB · React Native (Expo) | App de gastos personales y compartidos con backend propio en producción: filtro JWT con revocación de tokens, rate limiting por cuenta, guardado sin conexión sin duplicados por clave de idempotencia, y 181 tests con JUnit 5 y CI en GitHub Actions. | [App Store](https://apps.apple.com/ar/app/minutria/id6815433296) |
+| 💲 **Automatizador de Precios & Stock** | Node.js · MySQL · Mercado Libre API · Google APIs | Sincronización end-to-end entre Google Sheets, MySQL y Mercado Libre: webhook, cola de jobs con dedupe, outbox pattern latest-wins, retry con backoff y rate limiting por cuenta. | [Arquitectura](https://github.com/franpipito/automatizador-precios-stock) |
 | 📦 **Plataforma de Logística Realtime** | Node.js · MySQL · Socket.IO · SSE · JWT | Portal interno de operaciones: monitoreo de actividad en tiempo real, gestión de pedidos y productos para revisión y empaquetado, con trazabilidad de asignaciones. | Privado |
 | 🤝 **Preguntas MELI** | Node.js · MySQL · Mercado Libre API · WebSocket · Redis Pub/Sub | Bandeja que centraliza las preguntas de varias cuentas de Mercado Libre, con reserva por pregunta para evitar respuestas duplicadas y atribución de ventas. | Privado |
 | 🔔 **Panel de Alertas** | Node.js · Express · MySQL · Nodemailer · SMTP | Aplicación interna de alertas del Automatizador, con reglas de validación y notificaciones por email. | Privado |
